@@ -20,4 +20,8 @@ Personal student repository
 * Prepara tus páginas de prácticas en github.io usando un esquema parecido al de esta alumna de manera que tengas un histórico de prácticas de la asignatura. Tu página principal enlaza a tus prácticas en las asignaturas del grado.
 
 * Cuando terminen la tarea inicial] publiquen en la comunidad g+ los enlaces al repositorio y a la web en github.io. 
+<<<<<<< HEAD
 * Posteriormente, si les gusta o les ayuda alguna de las publicaciones pueden "votarla" con un "+".
+=======
+* Posteriormente, si les gusta o les ayuda alguna de las publicaciones pueden "votarla" con un "+".
+>>>>>>> origin/master
