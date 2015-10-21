@@ -116,7 +116,7 @@ h3 { color: #fff; font-size: 1.3em; margin: 15px 0 10px 0;}
 #menuIzquierda ul li {list-style: none}
 
 #menuIzquierda ul li a {
-	color: #a4d6f5; display: block; font-size: 1.2em; text-indent: 10px; line-height: 25px; width: 182px; height: 20px;
+	color: #a4d6f5; display: block; font-size: 1.2em; text-indent: 10px; line-height: 25px; width: 230px; height: 20px;
 }
 #menuIzquierda ul li a:hover {
 	color: #000; background: #a4d6f5
