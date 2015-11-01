@@ -18,19 +18,7 @@
     Measure.call(this, value,type);
   }
 
-  function Mass(value,type){
-    Measure.call(this, value,type);
-  }
-
   function Length(value,type){
-    Measure.call(this, value,type);
-  }
-
-  function Surface(value){
-    Measure.call(this, value,type);
-  }
-
-  function Volume(value){
     Measure.call(this, value,type);
   }
 
@@ -125,14 +113,10 @@
   }
 
 
-
   exports.Measure = Measure;
   exports.Temperature = Temperature;
 
-  exports.Mass = Mass;
   exports.Length = Length;
-  exports.Surface = Surface;
-  exports.Volume = Volume;
 
   exports.Celsius = Celsius;
   exports.Farenheit = Farenheit;
