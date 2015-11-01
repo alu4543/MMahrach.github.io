@@ -212,6 +212,13 @@ describe("Measure Units Converter", function() {
       expect(converted2.innerHTML).to.equal("100000.000000 Centimeter");
     });
 
+    it("HTML UI : 1cm will = 0.001000 Meter = 0.000010 Kilometer",function() {
+      original.value = "1cm";
+      calculate();
+      expect(converted.innerHTML).to.equal("0.001000 Meter");
+      expect(converted2.innerHTML).to.equal("0.000010 Kilometer");
+    });
+
 
   });
 
