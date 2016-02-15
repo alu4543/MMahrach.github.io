@@ -25,187 +25,391 @@
 
 
 	<body>
-	<h1 id="alu4543.github.io">alu4543.github.io</h1>
-	<h2 id="autor-mohammedmahrach">Autor : MohammedMahrach</h2>
-	<h2 id="alu0100777475-alu4543">alu0100777475 / alu4543</h2>
-	<p>Personal student repository</p>
-	<h1 id="tareas-iniciales">Tareas Iniciales</h1>
-	<h2 id="darse-de-alta-en-la-comunidad-google-ull-etsii-sytw-1516">1. Darse de alta en la comunidad Google + ULL-ETSII-SYTW-1516</h2>
-	<pre><code>1. Solicitud de alta
-	    * Para hacerlo, entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)</code></pre>
-	<blockquote>
-	<p>una vez allí date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha</p>
-	</blockquote>
-	<div class="figure">
-	<img src="Imagenes/image1.png" />
+	  <div class="wrapper">
+	    <div class="box">
+	      <div class="row row-offcanvas row-offcanvas-left">
+	        <!-- main right col -->
+	        <div class="column col-sm-12 col-xs-12" id="main">
+	          <!-- top nav -->
+	          <!-- top nav -->
+	          <div class="navbar navbar-blue navbar-static-top">
+	              <div class="navbar-header">
 
-	</div>
-	<h2 id="instala-node.js">2. Instala node.JS</h2>
-	<pre><code>1. Instalación de Node.js
+	              <button class="navbar-toggle nav-tog-left btn-lg" type="button" id="ocm-open-btn"  data-toggle="collapse" data-target=".navbar-collapse">
+	                <span class="glyphicon glyphicon-list"></span>
+	              </button>
 
-	    * Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://nodejs.org/en/*](https://nodejs.org/en/)</code></pre>
-	<div class="figure">
-	<img src="Imagenes/image2.png" />
+	              <button class="navbar-toggle btn-lg" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+	                <span class="glyphicon glyphicon-cog"></span>
+	              </button>
 
-	</div>
-	<pre><code>    * Si utilizas linux o mac instala via apt-get
+	                <form class="navbar-form">
+	                    <div class="input-group input-group-sm input-serach" >
+	                      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+	                      <div class="input-group-btn">
+	                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+	                      </div>
+	                    </div>
+	                </form>
+	              </div>
 
-	    $ sudo apt-get install nodejs
-
-	    * [Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:
-
-	    $ sudo apt-get install build-essential
+	              <nav class="collapse navbar-collapse" role="navigation">
+	                <!-- /right top nav -->
+	                <ul class="nav navbar-nav navbar-right">
 
 
-	2. Comprueba que npm funciona
+	                <li>
+	                  <a href="./login/registro.php"><i class="glyphicon glyphicon-floppy-disk"></i> LogUp</a>
+	                </li>
+	                <li>
+	                  <a href="./login/login.php"><i class="glyphicon glyphicon-log-in"></i> LogIn</a>
+	                </li>
 
-	    * Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.</code></pre>
-	<div class="figure">
-	<img src="Imagenes/image3.png" />
 
-	</div>
-	<pre><code>3. Instala express</code></pre>
-	<blockquote>
-	<p>Para instalar express tenemos que tener el npm iniciado.</p>
-	</blockquote>
-	<pre><code>    * instalación local a un proyecto :
+	                <li class="dropdown user-dropdown">
+	                    <a class="nav-profile-image dropdown-toggle" data-toggle="dropdown" href="#"><img src="http://api.randomuser.me/portraits/med/men/4.jpg" width="23px" height="23px">
+	                      <span class=username>
 
-	    $ mkdir myapp
-	    $ cd myapp
-	    $ npm init
-	    $ npm install express --save</code></pre>
-	<blockquote>
-	<p>opción --save guarda dependencia en package.json</p>
-	</blockquote>
-	<pre><code>    * instalación global
+	                      </span>
+	                      <b class="caret"></b></a>
 
-	    $ npm install -g express</code></pre>
-	<blockquote>
-	<p>la opcion -g para la instalación global</p>
-	</blockquote>
-	<h2 id="pon-tu-foto-en-tu-perfil-del-campus-virtual">3. Pon tu foto en tu perfil del campus virtual</h2>
-	<div class="figure">
-	<img src="Imagenes/image4.png" />
+	                    <ul class="dropdown-menu">
+	                      <li class="dropdown-header">
+	                        <div>
+	                        <a class="thumbnail pull-left" href="#">
+	                          <img src="http://api.randomuser.me/portraits/med/men/4.jpg" width="19px" height="19px">
 
-	</div>
-	<h2 id="instala-git.">4. Instala Git.</h2>
-	<pre><code>1. GitHub para Windows
-	    * Si estás en Windows sigue las instrucciones en GitHub para Windows</code></pre>
-	<p><a href="https://git-for-windows.github.io"><em>https://git-for-windows.github.io</em></a></p>
-	<pre><code>    * Descarga e instala el fichero : Git-2.6.0-64-bit.exe</code></pre>
-	<p><img src="Imagenes/image5.png" /> <img src="Imagenes/image6.png" /></p>
-	<p><img src="Imagenes/image7.png" /> <img src="Imagenes/image8.png" /></p>
-	<h2 id="abre-una-cuenta-en-github-si-no-la-tienes">5. Abre una cuenta en GitHub si no la tienes</h2>
-	<blockquote>
-	<p>Ya tenemos una cuenta publica abierta y esta en el siguiente enlace:</p>
-	</blockquote>
-	<p><a href="https://github.com/alu4543"><em>https://github.com/alu4543</em></a></p>
-	<div class="figure">
-	<img src="Imagenes/image9.png" />
+	                        </a>
+	                        </div>
 
-	</div>
-	<h2 id="si-dispones-de-un-mac-o-windows-instala-github-app">6. Si dispones de un Mac o Windows instala GitHub App</h2>
-	<blockquote>
-	<p>Desde el siguiente enlace se puede Descargar y instalar GitHub Para Windows Desktop.</p>
-	</blockquote>
-	<p><a href="https://desktop.github.com"><em>https://desktop.github.com</em></a></p>
-	<p><img src="Imagenes/image10.png" /> <img src="Imagenes/image11.png" /></p>
-	<h2 id="instala-atom-el-editor-desarrollado-por-github">7. Instala Atom, el editor desarrollado por GitHub</h2>
-	<pre><code>1. Descargar el instalador
-	    * Desde el siguiente enlace se puede Descargar y instalar atom Para Windows Desktop.</code></pre>
-	<p><a href="https://atom.io"><em>https://atom.io</em></a></p>
-	<div class="figure">
-	<img src="Imagenes/image12.png" />
+	                      </li>
 
-	</div>
-	<pre><code>2. Prueba
-	    * Ya tenemos el atom instalado!</code></pre>
-	<div class="figure">
-	<img src="Imagenes/image13.png" />
+	                      <li class="message-preview">
+	                        <p>
+	                          <span class=" label-info user-label">10 Post</span>
+	                          <span class=" label-primary user-label">89 followers</span>
+	                        </p>
 
-	</div>
-	<h2 id="cloud9-c9.io">8. cloud9 c9.io</h2>
-	<pre><code>    * Abre una cuenta en c9.io (cloud9).</code></pre>
-	<div class="figure">
-	<img src="Imagenes/image14.png" />
+	                      </li>
 
-	</div>
-	<pre><code>    * Vincula tu cuenta de GitHub con c9.</code></pre>
-	<p><img src="Imagenes/image15.png" /> <img src="Imagenes/image16.png" /></p>
-	<h2 id="markdown.">9. Markdown.</h2>
-	<pre><code>1. Definición
 
-	* Markdown es un lenguaje de marcado ligero creado por John Gruber  que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida.
-	* Inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
-	* Markdown convierte el texto marcado en documentos XHTML utlizando html2text creado por Aaron Swartz.
-	* Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.</code></pre>
-	<div class="figure">
-	<img src="Imagenes/markdown.png" />
+	                        <li><a href="#"><i class="fa fa-user"><!-- style="color:#dd1111;"> --></i> Profile</a></li>
+	                        <li><a href="#"><i class="fa fa-gear"><!-- style="color:#dd1111;"> --></i> Settings</a></li>
+	                        <li class="divider"></li>
+	                        <li><a href="./login/logout.php"><i class="fa fa-power-off" ><!-- style="color:#dd1111;"> --></i> Log Out</a></li>
 
-	</div>
-	<pre><code>1. Pequeño tutorial:
+	                    </ul>
+	                </li>
 
-	* Saltos de línea: Los saltos de línea se generan cuando se encuentran dos espacios juntos</code></pre>
-	<pre><code>&quot;Quien fue a sevilla,
-	perdió su silla&quot;</code></pre>
-	<pre><code>* Encabezados: Los encabezados se generan cuando se encuentra una almohadilla antes de texto</code></pre>
-	<pre><code># Encabezado h1
-	## Encabezado h2
-	### Encabezado h3
-	...</code></pre>
-	<pre><code>* Citas: Para citar solo es necesario escribir una cuña antes del texto</code></pre>
-	<pre><code>&gt; La vida es muy corta para aprender Alemán. -Tad Marburg</code></pre>
-	<pre><code>* Texto con énfasis: Agregar un asterisco para cursiva y dos para negrita</code></pre>
-	<pre><code> *énfasis* (cursiva)
-	 **énfasis fuerte** (negrita)
-	 ```
 
-	    * Código: Se utiliza el acento grave para identificar código
 
-	 `Código`
 
-	 ```
-	 Código en
-	 varias líneas
-	 ```
 
-	    * Listas:</code></pre>
-	<ul>
-	<li>Un elemento en una lista no ordenada</li>
-	<li>Otro elemento en una lista</li>
-	</ul>
-	<ol style="list-style-type: decimal">
-	<li>Elemento en una lista enumerada u ordenada.</li>
-	<li><p>Otro elemento</p>
-	<pre><code>* Enlaces:</code></pre>
-	<p><a href="URL" title="Título del enlace">Texto del enlace aquí</a> <code>* Imágenes:</code> <img src="URL" title="Título de la imagen" alt="Texto alternativo" /> ```</p></li>
-	<li><h2 id="instalar-el-traductor-pandoc-para-traducir-markdown-a-html.">Instalar el traductor pandoc para traducir Markdown a HTML.</h2></li>
-	</ol>
-	<ul>
-	<li>Para instalar en Windows:</li>
-	</ul>
-	<p><a href="https://github.com/jgm/pandoc/releases/tag/1.15.0.6"><em>https://github.com/jgm/pandoc/releases/tag/1.15.0.6</em></a></p>
-	<div class="figure">
-	<img src="Imagenes/image17.png" />
+	                <li class="divider-vertical"></li>
 
-	</div>
-	<ul>
-	<li>Pandoc Getting started.</li>
-	</ul>
-	<p><a href="http://pandoc.org/getting-started.html"><em>http://pandoc.org/getting-started.html/</em></a></p>
-	<pre><code>* To convert it to HTML, use this command:</code></pre>
-	<p>$ pandoc test1.md -f markdown -t html -s -o test1.html</p>
-	<pre><code>* To create a LaTeX document, you just need to change the command slightly:</code></pre>
-	<p>$ pandoc test1.md -f markdown -t latex -s -o test1.tex</p>
-	<pre><code>* OR</code></pre>
-	<p>$ pandoc test1.md -s -o test1.tex</p>
-	<pre><code>* if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do</code></pre>
-	<p>$ pandoc test1.md -s -o test1.pdf</p>
-	<pre><code>* Ejemplo :</code></pre>
-	<div class="figure">
-	<img src="Imagenes/image18.png" />
+	                </ul>
 
-	</div>
+	                <!-- /end right top nav -->
+
+	                <!-- /left top nav -->
+	                <ul class="nav navbar-nav">
+
+	                  <li>
+	                    <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
+	                  </li>
+
+
+	                <li class="divider-vertical"></li>
+
+	                </ul>
+
+	                <!-- /end left top nav -->
+
+
+	              </nav>
+
+	          </div>
+	          <!-- /top nav -->
+
+						<!-- /top nav -->
+						<div id="ocm-page-wrapper">
+							<div class="padding">
+								<div class="full col-sm-9">
+									<!-- content -->
+									<div class="row">
+										<!-- col-left -->
+	                  <!-- left -->
+	                  <div class="col-sm-3">
+
+	                      <nav class="ocm-main-menu">
+
+
+	                        <h1>Mis practicas</h1>
+	                        			<h1><span>Portal</span></h1>
+	                        			<p class="sub">En este sitio encontrarás una guía breve de algunos lenguajes de programación con algunos ejercicios útiles.</p>
+
+	                        			<h3>PRÁCTICAS</h3>
+
+	                        			<ul>
+	                        				<li><a href="../"> Home</a></li>
+	                        				<li><a href="../Iniciales/index.html">SWT-1: Tareas Iniciales</a></li>
+	                        				<li><a href="../TempConverter/index.html">SWT-2: Mocha/Chai/Gulp</a></li>
+	                        				<li><a href="../UnitsConverter3/index.html">SWT-3: Sinon/Blanket</a></li>
+	                        				<li><a href="../UnitsConverter4/index.html">SWT-4: Karma/Travis/WebWorkers</a></li>
+	                                <li><a href="../UnitsConverter5/index.html">SWT-5: despliegue en iaas.ull.es</a></li>
+	                                <li><a href="../STW-6">SWT-6: ExpressJS: client/server</a></li>
+	                                <li><a href="../STW-7">SWT-7: Quiz: Layouts/Controls/Model</a></li>
+	                                <li><a href="../STW-8">SWT-8: responsiveDesign/Heroku</a></li>
+	                                <li><a href="../STW-9">SWT-9: Preguntas Simple/Múltiple</a></li>
+	                        			</ul>
+	                        			<h3>CUESTIONÁRIOS</h3>
+	                        			<ul>
+	                        				<li><a href="#">Git</a></li>
+	                        				<li><a href="#">Emmet, JSON y Clausuras</a></li>
+	                        				<li><a href="#">JavaScript en W3Schools</a></li>
+	                        				<li><a href="#">Preguntas de HTTP y REST</a></li>
+	                        				<li><a href="#">Preguntas de Express</a></li>
+	                        			</ul>
+
+	                      </nav>
+
+	                    </div>
+	                  <!-- main col left -->
+
+										<!-- End col-left -->
+
+										<!-- main -->
+	 									<div class="col-sm-7 col7">
+
+	                    <section class="main" id="s1">
+
+												<div id="content">
+
+													<h1 id="alu4543.github.io">alu4543.github.io</h1>
+													<h2 id="autor-mohammedmahrach">Autor : MohammedMahrach</h2>
+													<h2 id="credencials-alu0100777475-alu4543">Credencials : alu0100777475 / alu4543</h2>
+													<h1 id="tareas-iniciales">Tareas Iniciales</h1>
+													<h2 id="darse-de-alta-en-la-comunidad-google-ull-etsii-sytw-1516">1. Darse de alta en la comunidad Google + ULL-ETSII-SYTW-1516</h2>
+													<h3 id="solicitud-de-alta"> 1.1. Solicitud de alta</h3>
+													<p>entra a :<a href="http://mail.ull.edu.es"><em>http://mail.ull.edu.es</em></a></p>
+													<blockquote>
+													<p>una vez allí date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha</p>
+													</blockquote>
+													<div class="figure">
+													<img src="Imagenes/image1.png" />
+
+													</div>
+													<h2 id="instala-node.js">2. Instala node.JS</h2>
+													<h3 id="instalación-de-node.js"> 2.1. Instalación de Node.js</h3>
+													<p>Si estás en Windows sigue las instrucciones en GitHub para Windows : <a href="https://nodejs.org/en/"><em>https://nodejs.org/en/</em></a></p>
+													<div class="figure">
+													<img src="Imagenes/image2.png" />
+
+													</div>
+													<p>Si utilizas linux o mac instala via apt-get</p>
+													<pre><code>$ sudo apt-get install nodejs</code></pre>
+													<p>[Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:</p>
+													<pre><code>$ sudo apt-get install build-essential</code></pre>
+													<p>Comprueba que npm funciona</p>
+													<p>Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.</p>
+													<div class="figure">
+													<img src="Imagenes/image3.png" />
+
+													</div>
+													<h2 id="instala-express">3. Instala express</h2>
+													<blockquote>
+													<p>Para instalar express tenemos que tener el npm iniciado.</p>
+													</blockquote>
+													<h3 id="instalación-local-a-un-proyecto"> 3.1. instalación local a un proyecto :</h3>
+													<pre><code>$ mkdir myapp
+													$ cd myapp
+													$ npm init
+													$ npm install express --save</code></pre>
+													<blockquote>
+													<p>opción --save guarda dependencia en package.json</p>
+													</blockquote>
+													<h3 id="instalación-global"> 3.2. instalación global</h3>
+													<pre><code>$ npm install -g express</code></pre>
+													<blockquote>
+													<p>la opcion -g para la instalación global</p>
+													</blockquote>
+													<h2 id="pon-tu-foto-en-tu-perfil-del-campus-virtual">4. Pon tu foto en tu perfil del campus virtual</h2>
+													<div class="figure">
+													<img src="Imagenes/image4.png" />
+
+													</div>
+													<h2 id="instala-git.">5. Instala Git.</h2>
+													<h3 id="github-para-windows"> 5.1. GitHub para Windows</h3>
+													<p>Si estás en Windows sigue las instrucciones en GitHub para Windows</p>
+													<p><a href="https://git-for-windows.github.io"><em>https://git-for-windows.github.io</em></a></p>
+													<p>Descarga e instala el fichero : Git-2.6.0-64-bit.exe</p>
+													<p><img src="Imagenes/image5.png" /> <img src="Imagenes/image6.png" /></p>
+													<p><img src="Imagenes/image7.png" /> <img src="Imagenes/image8.png" /></p>
+													<h2 id="abre-una-cuenta-en-github-si-no-la-tienes">6. Abre una cuenta en GitHub si no la tienes</h2>
+													<p>Ya tenemos una cuenta publica abierta y esta en el siguiente enlace:</p>
+													<p><a href="https://github.com/alu4543"><em>https://github.com/alu4543</em></a></p>
+													<div class="figure">
+													<img src="Imagenes/image9.png" />
+
+													</div>
+													<h2 id="si-dispones-de-un-mac-o-windows-instala-github-app">7. Si dispones de un Mac o Windows instala GitHub App</h2>
+													<blockquote>
+													<p>Desde el siguiente enlace se puede Descargar y instalar GitHub Para Windows Desktop.</p>
+													</blockquote>
+													<p><a href="https://desktop.github.com"><em>https://desktop.github.com</em></a></p>
+													<h3 id="descargar-el-instalador"> 7.1. Descargar el instalador</h3>
+													<div class="figure">
+													<img src="Imagenes/image10.png" />
+
+													</div>
+													<h3 id="configurción"> 7.2. Configurción</h3>
+													<div class="figure">
+													<img src="Imagenes/image11.png" />
+
+													</div>
+													<h2 id="instala-atom-el-editor-desarrollado-por-github">8. Instala Atom, el editor desarrollado por GitHub</h2>
+													<h3 id="descargar-el-instalador-1"> 8.1. Descargar el instalador</h3>
+													<pre><code>    * Desde el siguiente enlace se puede Descargar y instalar atom Para Windows Desktop.</code></pre>
+													<p><a href="https://atom.io"><em>https://atom.io</em></a></p>
+													<div class="figure">
+													<img src="Imagenes/image12.png" />
+
+													</div>
+													<h3 id="prueba"> 8.2. Prueba</h3>
+													<blockquote>
+													<p>Ya tenemos el atom instalado!</p>
+													</blockquote>
+													<div class="figure">
+													<img src="Imagenes/image13.png" />
+
+													</div>
+													<h2 id="cloud9-c9.io">9. cloud9 c9.io</h2>
+													<blockquote>
+													<p>Abre una cuenta en c9.io (cloud9).</p>
+													</blockquote>
+													<div class="figure">
+													<img src="Imagenes/image14.png" />
+
+													</div>
+													<blockquote>
+													<p>Vincula tu cuenta de GitHub con c9.</p>
+													</blockquote>
+													<p><img src="Imagenes/image15.png" /> <img src="Imagenes/image16.png" /></p>
+													<h2 id="markdown">10. Markdown</h2>
+													<h3 id="definición"> 10.1. Definición</h3>
+													<blockquote>
+													<p>Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida. Inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Markdown convierte el texto marcado en documentos XHTML utlizando html2text creado por Aaron Swartz. Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.</p>
+													</blockquote>
+													<div class="figure">
+													<img src="Imagenes/markdown.png" />
+
+													</div>
+													<h3 id="pequeño-tutorial"> 10.2. Pequeño tutorial:</h3>
+													<blockquote>
+													<p>Saltos de línea: Los saltos de línea se generan cuando se encuentran dos espacios juntos</p>
+													</blockquote>
+													<pre><code>&quot;Quien fue a sevilla,
+													perdió su silla&quot;</code></pre>
+													<blockquote>
+													<p>Encabezados: Los encabezados se generan cuando se encuentra una almohadilla antes de texto</p>
+													</blockquote>
+													<pre><code># Encabezado h1
+													## Encabezado h2
+													### Encabezado h3
+													...</code></pre>
+													<blockquote>
+													<p>Citas: Para citar solo es necesario escribir una cuña antes del texto</p>
+													</blockquote>
+													<pre><code>&gt; La vida es muy corta para aprender Alemán. -Tad Marburg</code></pre>
+													<blockquote>
+													<p>Texto con énfasis: Agregar un asterisco para cursiva y dos para negrita</p>
+													</blockquote>
+													<pre><code> *énfasis* (cursiva)
+													 **énfasis fuerte** (negrita)
+													 ```
+
+													&gt;Código: Se utiliza el acento grave para identificar código
+
+													 `Código`
+
+													 ```
+													 Código en
+													 varias líneas
+													 ```
+
+													&gt;Listas:
+													</code></pre>
+													<ul>
+													<li>Un elemento en una lista no ordenada</li>
+													<li>Otro elemento en una lista</li>
+													</ul>
+													<ol style="list-style-type: decimal">
+													<li>Elemento en una lista enumerada u ordenada.</li>
+													<li>Otro elemento ```</li>
+													</ol>
+													<blockquote>
+													<p>Enlaces:</p>
+													</blockquote>
+													<pre><code> [Texto del enlace aquí](URL &quot;Título del enlace&quot;)
+													 ```
+
+													&gt;Imágenes:
+													</code></pre>
+													<p><img src="URL" title="Título de la imagen" alt="Texto alternativo" /> ```</p>
+													<h2 id="instalar-el-traductor-pandoc-para-traducir-markdown-a-html.">11. Instalar el traductor pandoc para traducir Markdown a HTML.</h2>
+													<h3 id="para-instalar-en-windows"> 11.1. Para instalar en Windows:</h3>
+													<p><a href="https://github.com/jgm/pandoc/releases/tag/1.15.0.6"><em>https://github.com/jgm/pandoc/releases/tag/1.15.0.6</em></a></p>
+													<div class="figure">
+													<img src="Imagenes/image17.png" />
+
+													</div>
+													<h3 id="pandoc-getting-started."> 11.2. Pandoc Getting started.</h3>
+													<p><a href="http://pandoc.org/getting-started.html"><em>http://pandoc.org/getting-started.html/</em></a></p>
+													<p>To convert it to HTML, use this command:</p>
+													<pre><code>$ pandoc test1.md -f markdown -t html -s -o test1.html</code></pre>
+													<p>To create a LaTeX document, you just need to change the command slightly:</p>
+													<pre><code>$ pandoc test1.md -f markdown -t latex -s -o test1.tex</code></pre>
+													<p>OR</p>
+													<pre><code>$ pandoc test1.md -s -o test1.tex</code></pre>
+													<p>if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do</p>
+													<pre><code>$ pandoc test1.md -s -o test1.pdf</code></pre>
+													<h3 id="ejemplo"> 11.3. Ejemplo :</h3>
+													<div class="figure">
+													<img src="Imagenes/image18.png" />
+
+													</div>
+
+											  </div>
+
+	                    </section>
+
+										</div>
+										<!-- main col right -->
+										<div class="col-sm-2">
+
+											<div class="panel panel-default">
+												<div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Bootply Editor &amp; Code Library</h4></div>
+												<div class="panel-body">
+													<p><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTF_erFD1SeUnxEpvFjzBCCDxLvf-wlh9ZuPMqi02qGnyyBtPWdE-3KoH3s" class="img-circle pull-right"> <a href="#">The Bootstrap Playground</a></p>
+													<div class="clearfix"></div>
+													<hr>
+													Design, build, test, and prototype using Bootstrap in real-time from your Web browser. Bootply combines the power of hand-coded HTML, CSS and JavaScript with the benefits of responsive design using Bootstrap. Find and showcase Bootstrap-ready snippets in the 100% free Bootply.com code repository.
+												</div>
+											</div>
+
+										</div> <!-- /col-sm-3 -->
+									</div><!--/row-->
+								</div><!-- full col-sm-9 -->
+							</div><!-- /padding -->
+						</div><!-- /ocm-page-wrapper -->
+	          <!--close header div's modal-->
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	          <!--post modal-->
+
+
 
 
 			<!-- script references -->
