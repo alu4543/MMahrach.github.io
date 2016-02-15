@@ -9,9 +9,9 @@ Tareas Iniciales
 ## 1. Darse de alta en la comunidad Google + ULL-ETSII-SYTW-1516
 ### 1.1. Solicitud de alta
 
-entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
+Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
-> una vez allí date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha
+> date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha
 
 ![](Imagenes/image1.png)
 
@@ -19,7 +19,7 @@ entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 ## 2. Instala node.JS
 ### 2.1. Instalación de Node.js
 
-  Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://nodejs.org/en/*](https://nodejs.org/en/)
+> Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://nodejs.org/en/*](https://nodejs.org/en/)
 
 ![](Imagenes/image2.png)
 
@@ -32,9 +32,9 @@ entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
     $ sudo apt-get install build-essential
 
-  Comprueba que npm funciona
+### 2.2. Comprueba que npm funciona
 
-  Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.
+> Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.
 
 ![](Imagenes/image3.png)
 
@@ -64,9 +64,7 @@ entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ## 5. Instala Git.
 ### 5.1. GitHub para Windows
-  Si estás en Windows sigue las instrucciones en GitHub para Windows
-
-[*https://git-for-windows.github.io*](https://git-for-windows.github.io)
+> Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://git-for-windows.github.io*](https://git-for-windows.github.io)
 
   Descarga e instala el fichero : Git-2.6.0-64-bit.exe
 
@@ -76,19 +74,15 @@ entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ## 6. Abre una cuenta en GitHub si no la tienes
 
-  Ya tenemos una cuenta publica abierta y esta en el siguiente enlace:
-
-[*https://github.com/alu4543*](https://github.com/alu4543)
+> Ya tenemos una cuenta publica abierta y esta en el siguiente enlace: [*https://github.com/alu4543*](https://github.com/alu4543)
 
 ![](Imagenes/image9.png)
 
 ## 7. Si dispones de un Mac o Windows instala GitHub App
-
-> Desde el siguiente enlace se puede Descargar y instalar GitHub Para Windows Desktop.
-
-[*https://desktop.github.com*](https://desktop.github.com)
-
 ### 7.1. Descargar el instalador
+
+> Desde el siguiente enlace se puede Descargar y instalar GitHub Para Windows Desktop : [*https://desktop.github.com*](https://desktop.github.com)
+
 
 ![](Imagenes/image10.png)
 
@@ -99,7 +93,7 @@ entra a :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ## 8. Instala Atom, el editor desarrollado por GitHub
 ### 8.1. Descargar el instalador
-        * Desde el siguiente enlace se puede Descargar y instalar atom Para Windows Desktop.
+> Desde el siguiente enlace se puede Descargar y instalar atom Para Windows Desktop.
 
 [*https://atom.io*](https://atom.io)
 
@@ -194,7 +188,8 @@ perdió su silla"
 ```
 
 ## 11. Instalar el traductor pandoc para traducir Markdown a HTML.
-
+>Si necesitas convertir archivos de un formato de marcas a otro, Pandoc es su navaja suiza del ejército.
+> mas info : [*http://pandoc.org/*](http://pandoc.org)
 ### 11.1. Para instalar en Windows:
 
 [*https://github.com/jgm/pandoc/releases/tag/1.15.0.6*](https://github.com/jgm/pandoc/releases/tag/1.15.0.6)
@@ -217,7 +212,7 @@ perdió su silla"
 
     $ pandoc test1.md -s -o test1.tex
 
-  if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do
+> if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do
 
     $ pandoc test1.md -s -o test1.pdf
 
