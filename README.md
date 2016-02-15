@@ -153,13 +153,11 @@ perdió su silla"
 >Código: Se utiliza el acento grave para identificar código
 ```
 `Código`
-
-
+```
+```
 \`\`\`
-
 Código en
 varias líneas
-
 \`\`\`
 ```
 >Listas:
