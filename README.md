@@ -154,19 +154,21 @@ perdió su silla"
 ```
 `Código`
 ```
-```
+
 \`\`\`
+
 Código en
 varias líneas
+
 \`\`\`
-```
+
 >Listas:
 
 ```
- * Un elemento en una lista no ordenada
- * Otro elemento en una lista
- 1. Elemento en una lista enumerada u ordenada.
- 2. Otro elemento
+* Un elemento en una lista no ordenada
+* Otro elemento en una lista
+1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
 ```
 
 >Enlaces:
