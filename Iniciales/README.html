@@ -31,10 +31,14 @@
 <img src="Imagenes/image2.png" />
 
 </div>
+<blockquote>
 <p>Si utilizas linux o mac instala via apt-get</p>
-<pre><code>$ sudo apt-get install nodejs</code></pre>
+</blockquote>
+<p>$ sudo apt-get install nodejs</p>
+<blockquote>
 <p>[Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:</p>
-<pre><code>$ sudo apt-get install build-essential</code></pre>
+</blockquote>
+<p>$ sudo apt-get install build-essential</p>
 <h3 id="comprueba-que-npm-funciona"> 2.2. Comprueba que npm funciona</h3>
 <blockquote>
 <p>Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.</p>
@@ -48,15 +52,12 @@
 <p>Para instalar express tenemos que tener el npm iniciado.</p>
 </blockquote>
 <h3 id="instalación-local-a-un-proyecto"> 3.1. instalación local a un proyecto :</h3>
-<pre><code>$ mkdir myapp
-$ cd myapp
-$ npm init
-$ npm install express --save</code></pre>
+<p>$ mkdir myapp $ cd myapp $ npm init $ npm install express --save</p>
 <blockquote>
 <p>opción --save guarda dependencia en package.json</p>
 </blockquote>
 <h3 id="instalación-global"> 3.2. instalación global</h3>
-<pre><code>$ npm install -g express</code></pre>
+<p>$ npm install -g express</p>
 <blockquote>
 <p>la opcion -g para la instalación global</p>
 </blockquote>
@@ -70,7 +71,9 @@ $ npm install express --save</code></pre>
 <blockquote>
 <p>Si estás en Windows sigue las instrucciones en GitHub para Windows : <a href="https://git-for-windows.github.io"><em>https://git-for-windows.github.io</em></a></p>
 </blockquote>
+<blockquote>
 <p>Descarga e instala el fichero : Git-2.6.0-64-bit.exe</p>
+</blockquote>
 <p><img src="Imagenes/image5.png" /> <img src="Imagenes/image6.png" /></p>
 <p><img src="Imagenes/image7.png" /> <img src="Imagenes/image8.png" /></p>
 <h2 id="abre-una-cuenta-en-github-si-no-la-tienes">6. Abre una cuenta en GitHub si no la tienes</h2>
@@ -127,13 +130,13 @@ $ npm install express --save</code></pre>
 <p><img src="Imagenes/image15.png" /> <img src="Imagenes/image16.png" /></p>
 <h2 id="markdown">10. Markdown</h2>
 <h3 id="definición"> 10.1. Definición</h3>
-<blockquote>
-<p>Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida. Inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Markdown convierte el texto marcado en documentos XHTML utlizando html2text creado por Aaron Swartz. Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.</p>
-</blockquote>
 <div class="figure">
 <img src="Imagenes/markdown.png" />
 
 </div>
+<blockquote>
+<p>Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida. Inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Markdown convierte el texto marcado en documentos XHTML utlizando html2text creado por Aaron Swartz. Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.</p>
+</blockquote>
 <h3 id="pequeño-tutorial"> 10.2. Pequeño tutorial:</h3>
 <blockquote>
 <p>Saltos de línea: Los saltos de línea se generan cuando se encuentran dos espacios juntos</p>
@@ -154,38 +157,29 @@ perdió su silla&quot;</code></pre>
 <blockquote>
 <p>Texto con énfasis: Agregar un asterisco para cursiva y dos para negrita</p>
 </blockquote>
-<pre><code> *énfasis* (cursiva)
- **énfasis fuerte** (negrita)
- ```
-
-&gt;Código: Se utiliza el acento grave para identificar código
-
- `Código`
-
- ```
- Código en
- varias líneas
- ```
-
-&gt;Listas:
-</code></pre>
-<ul>
-<li>Un elemento en una lista no ordenada</li>
-<li>Otro elemento en una lista</li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>Elemento en una lista enumerada u ordenada.</li>
-<li>Otro elemento ```</li>
-</ol>
+<pre><code>*énfasis* (cursiva)
+**énfasis fuerte** (negrita)</code></pre>
+<blockquote>
+<p>Código: Se utiliza el acento grave para identificar código</p>
+</blockquote>
+<p><code>Código</code></p>
+<pre><code>Código en
+varias líneas</code></pre>
+<blockquote>
+<p>Listas:</p>
+</blockquote>
+<pre><code> * Un elemento en una lista no ordenada
+ * Otro elemento en una lista
+ 1. Elemento en una lista enumerada u ordenada.
+ 2. Otro elemento</code></pre>
 <blockquote>
 <p>Enlaces:</p>
 </blockquote>
-<pre><code> [Texto del enlace aquí](URL &quot;Título del enlace&quot;)
- ```
-
-&gt;Imágenes:
-</code></pre>
-<p><img src="URL" title="Título de la imagen" alt="Texto alternativo" /> ```</p>
+<pre><code>[Texto del enlace aquí](URL &quot;Título del enlace&quot;)</code></pre>
+<blockquote>
+<p>Imágenes:</p>
+</blockquote>
+<pre><code>![Texto alternativo](URL &quot;Título de la imagen&quot;)</code></pre>
 <h2 id="instalar-el-traductor-pandoc-para-traducir-markdown-a-html.">11. Instalar el traductor pandoc para traducir Markdown a HTML.</h2>
 <blockquote>
 <p>Si necesitas convertir archivos de un formato de marcas a otro, Pandoc es su navaja suiza del ejército. mas info : <a href="http://pandoc.org"><em>http://pandoc.org/</em></a> ### 11.1. Para instalar en Windows:</p>
@@ -197,16 +191,22 @@ perdió su silla&quot;</code></pre>
 </div>
 <h3 id="pandoc-getting-started."> 11.2. Pandoc Getting started.</h3>
 <p><a href="http://pandoc.org/getting-started.html"><em>http://pandoc.org/getting-started.html/</em></a></p>
+<blockquote>
 <p>To convert it to HTML, use this command:</p>
-<pre><code>$ pandoc test1.md -f markdown -t html -s -o test1.html</code></pre>
+</blockquote>
+<p>$ pandoc test1.md -f markdown -t html -s -o test1.html</p>
+<blockquote>
 <p>To create a LaTeX document, you just need to change the command slightly:</p>
-<pre><code>$ pandoc test1.md -f markdown -t latex -s -o test1.tex</code></pre>
-<p>OR</p>
-<pre><code>$ pandoc test1.md -s -o test1.tex</code></pre>
+</blockquote>
+<p>$ pandoc test1.md -f markdown -t latex -s -o test1.tex</p>
+<blockquote>
+<p>OR..</p>
+</blockquote>
+<p>$ pandoc test1.md -s -o test1.tex</p>
 <blockquote>
 <p>if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do</p>
 </blockquote>
-<pre><code>$ pandoc test1.md -s -o test1.pdf</code></pre>
+<p>$ pandoc test1.md -s -o test1.pdf</p>
 <h3 id="ejemplo"> 11.3. Ejemplo :</h3>
 <div class="figure">
 <img src="Imagenes/image18.png" />

@@ -15,7 +15,6 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ![](Imagenes/image1.png)
 
-
 ## 2. Instala node.JS
 ### 2.1. Instalación de Node.js
 
@@ -23,14 +22,13 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ![](Imagenes/image2.png)
 
+> Si utilizas linux o mac instala via apt-get
 
-  Si utilizas linux o mac instala via apt-get
+  $ sudo apt-get install nodejs
 
-    $ sudo apt-get install nodejs
+> [Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:
 
-  [Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:
-
-    $ sudo apt-get install build-essential
+  $ sudo apt-get install build-essential
 
 ### 2.2. Comprueba que npm funciona
 
@@ -38,22 +36,22 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ![](Imagenes/image3.png)
 
-
 ## 3. Instala express
+
 > Para instalar express tenemos que tener el npm iniciado.
 
 ### 3.1. instalación local a un proyecto :
 
-    $ mkdir myapp
-    $ cd myapp
-    $ npm init
-    $ npm install express --save
+  $ mkdir myapp
+  $ cd myapp
+  $ npm init
+  $ npm install express --save
 
 > opción --save guarda dependencia en package.json
 
 ### 3.2. instalación global
 
-    $ npm install -g express
+  $ npm install -g express
 
 > la opcion -g para la instalación global
 
@@ -61,12 +59,11 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ![](Imagenes/image4.png)
 
-
 ## 5. Instala Git.
 ### 5.1. GitHub para Windows
 > Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://git-for-windows.github.io*](https://git-for-windows.github.io)
 
-  Descarga e instala el fichero : Git-2.6.0-64-bit.exe
+> Descarga e instala el fichero : Git-2.6.0-64-bit.exe
 
 ![](Imagenes/image5.png) ![](Imagenes/image6.png)
 
@@ -83,9 +80,7 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 > Desde el siguiente enlace se puede Descargar y instalar GitHub Para Windows Desktop : [*https://desktop.github.com*](https://desktop.github.com)
 
-
 ![](Imagenes/image10.png)
-
 
 ### 7.2. Configurción
 
@@ -115,16 +110,15 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ![](Imagenes/image15.png) ![](Imagenes/image16.png)
 
-
 ## 10. Markdown
 ### 10.1. Definición
+
+![](Imagenes/markdown.png)
 
 >Markdown es un lenguaje de marcado ligero creado por John Gruber  que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida.
 Inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
 Markdown convierte el texto marcado en documentos XHTML utlizando html2text creado por Aaron Swartz.
 Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.
-
-![](Imagenes/markdown.png)
 
 ### 10.2. Pequeño tutorial:
 
@@ -153,18 +147,18 @@ perdió su silla"
 >Texto con énfasis: Agregar un asterisco para cursiva y dos para negrita
 
 ```
- *énfasis* (cursiva)
- **énfasis fuerte** (negrita)
- ```
+*énfasis* (cursiva)
+**énfasis fuerte** (negrita)
+```
 
 >Código: Se utiliza el acento grave para identificar código
 
- `Código`
+`Código`
 
- ```
- Código en
- varias líneas
- ```
+```
+Código en
+varias líneas
+```
 
 >Listas:
 
@@ -178,8 +172,8 @@ perdió su silla"
 >Enlaces:
 
 ```
- [Texto del enlace aquí](URL "Título del enlace")
- ```
+[Texto del enlace aquí](URL "Título del enlace")
+```
 
 >Imágenes:
 
@@ -200,21 +194,21 @@ perdió su silla"
 
 [*http://pandoc.org/getting-started.html/*](http://pandoc.org/getting-started.html)
 
-  To convert it to HTML, use this command:
+> To convert it to HTML, use this command:
 
-    $ pandoc test1.md -f markdown -t html -s -o test1.html
+  $ pandoc test1.md -f markdown -t html -s -o test1.html
 
-  To create a LaTeX document, you just need to change the command slightly:
+> To create a LaTeX document, you just need to change the command slightly:
 
-    $ pandoc test1.md -f markdown -t latex -s -o test1.tex
+  $ pandoc test1.md -f markdown -t latex -s -o test1.tex
 
-  OR
+> OR..
 
-    $ pandoc test1.md -s -o test1.tex
+  $ pandoc test1.md -s -o test1.tex
 
 > if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do
 
-    $ pandoc test1.md -s -o test1.pdf
+  $ pandoc test1.md -s -o test1.pdf
 
 ### 11.3. Ejemplo :
 
