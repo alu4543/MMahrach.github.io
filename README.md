@@ -155,12 +155,14 @@ perdió su silla"
 `Código`
 ```
 
+```
 \`\`\`
 
 Código en
 varias líneas
 
 \`\`\`
+```
 
 >Listas:
 
