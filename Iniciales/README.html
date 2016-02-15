@@ -34,11 +34,11 @@
 <blockquote>
 <p>Si utilizas linux o mac instala via apt-get</p>
 </blockquote>
-<p>$ sudo apt-get install nodejs</p>
+<pre><code>$ sudo apt-get install nodejs</code></pre>
 <blockquote>
 <p>[Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:</p>
 </blockquote>
-<p>$ sudo apt-get install build-essential</p>
+<pre><code>$ sudo apt-get install build-essential</code></pre>
 <h3 id="comprueba-que-npm-funciona"> 2.2. Comprueba que npm funciona</h3>
 <blockquote>
 <p>Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.</p>
@@ -52,12 +52,15 @@
 <p>Para instalar express tenemos que tener el npm iniciado.</p>
 </blockquote>
 <h3 id="instalación-local-a-un-proyecto"> 3.1. instalación local a un proyecto :</h3>
-<p>$ mkdir myapp $ cd myapp $ npm init $ npm install express --save</p>
+<pre><code>$ mkdir myapp
+$ cd myapp
+$ npm init
+$ npm install express --save</code></pre>
 <blockquote>
 <p>opción --save guarda dependencia en package.json</p>
 </blockquote>
 <h3 id="instalación-global"> 3.2. instalación global</h3>
-<p>$ npm install -g express</p>
+<pre><code>$ npm install -g express</code></pre>
 <blockquote>
 <p>la opcion -g para la instalación global</p>
 </blockquote>
@@ -194,19 +197,19 @@ varias líneas</code></pre>
 <blockquote>
 <p>To convert it to HTML, use this command:</p>
 </blockquote>
-<p>$ pandoc test1.md -f markdown -t html -s -o test1.html</p>
+<pre><code>$ pandoc test1.md -f markdown -t html -s -o test1.html</code></pre>
 <blockquote>
 <p>To create a LaTeX document, you just need to change the command slightly:</p>
 </blockquote>
-<p>$ pandoc test1.md -f markdown -t latex -s -o test1.tex</p>
+<pre><code>$ pandoc test1.md -f markdown -t latex -s -o test1.tex</code></pre>
 <blockquote>
 <p>OR..</p>
 </blockquote>
-<p>$ pandoc test1.md -s -o test1.tex</p>
+<pre><code>$ pandoc test1.md -s -o test1.tex</code></pre>
 <blockquote>
 <p>if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do</p>
 </blockquote>
-<p>$ pandoc test1.md -s -o test1.pdf</p>
+<pre><code>$ pandoc test1.md -s -o test1.pdf</code></pre>
 <h3 id="ejemplo"> 11.3. Ejemplo :</h3>
 <div class="figure">
 <img src="Imagenes/image18.png" />

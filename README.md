@@ -24,11 +24,11 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 > Si utilizas linux o mac instala via apt-get
 
-  $ sudo apt-get install nodejs
+    $ sudo apt-get install nodejs
 
 > [Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:
 
-  $ sudo apt-get install build-essential
+    $ sudo apt-get install build-essential
 
 ### 2.2. Comprueba que npm funciona
 
@@ -42,16 +42,16 @@ Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
 
 ### 3.1. instalación local a un proyecto :
 
-  $ mkdir myapp
-  $ cd myapp
-  $ npm init
-  $ npm install express --save
+    $ mkdir myapp
+    $ cd myapp
+    $ npm init
+    $ npm install express --save
 
 > opción --save guarda dependencia en package.json
 
 ### 3.2. instalación global
 
-  $ npm install -g express
+    $ npm install -g express
 
 > la opcion -g para la instalación global
 
@@ -196,19 +196,19 @@ varias líneas
 
 > To convert it to HTML, use this command:
 
-  $ pandoc test1.md -f markdown -t html -s -o test1.html
+    $ pandoc test1.md -f markdown -t html -s -o test1.html
 
 > To create a LaTeX document, you just need to change the command slightly:
 
-  $ pandoc test1.md -f markdown -t latex -s -o test1.tex
+    $ pandoc test1.md -f markdown -t latex -s -o test1.tex
 
 > OR..
 
-  $ pandoc test1.md -s -o test1.tex
+    $ pandoc test1.md -s -o test1.tex
 
 > if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do
 
-  $ pandoc test1.md -s -o test1.pdf
+    $ pandoc test1.md -s -o test1.pdf
 
 ### 11.3. Ejemplo :
 
