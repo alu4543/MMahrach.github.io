@@ -10,8 +10,7 @@ Tareas Iniciales
 ### 1.1. Solicitud de alta
 
 > Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
-
-> date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha
+date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha
 
 ![](Imagenes/image1.png)
 
@@ -154,13 +153,15 @@ perdió su silla"
 >Código: Se utiliza el acento grave para identificar código
 ```
 `Código`
-```
+
 
 \`\`\`
+
 Código en
 varias líneas
-\`\`\`
 
+\`\`\`
+```
 >Listas:
 
 ```
