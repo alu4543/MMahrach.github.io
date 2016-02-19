@@ -86,20 +86,6 @@ line-height: inherit;
     background-color: rgba(185, 74, 72, 0.88);
 }
 
-ul li {list-style: none}
-
-/*pie de pagina*/
-
-#footer {
- text-align: center;
- color: #666;
- margin-top: 30px;
- font-size: 0.7em;
- }
-#footer p { color: #666;}
-#footer a { color: #666;}
-#footer a:hover { color: #f4f4f4;}
-
 @media (max-width:767px) {
 .input-serach{
     max-width:none;
